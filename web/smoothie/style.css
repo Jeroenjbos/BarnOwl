@@ -1,0 +1,66 @@
+div.smoothie-chart-tooltip {
+    background: #444;
+    padding: 1em;
+    margin-top: 20px;
+    font-family: consolas;
+    color: white;
+    font-size: 10px;
+    pointer-events: none;
+}
+
+.container-grid {
+    display: grid;
+    grid-template-columns: 1000px auto;
+    grid-template-rows: 200px 400px;
+    grid-gap: 5px;
+    width: 1150px;
+}
+
+.container-grid > div {
+    padding: 0px 0px;
+}
+
+.label-grid {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-gap: 2px;
+}
+
+.label-grid > div {
+    padding: 0px 0px;
+}
+
+.label {
+    font-size: 10px;
+    /* float: left; */
+}
+
+.indicator {
+    float: left;
+    width: 9px;
+    height: 9px;
+    margin: 0px 3px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    background-color: #555;
+}
+
+.toggle_button {
+    float: right;
+    padding: 7px 15px;
+    font-size: 8px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 1px;
+    box-shadow: 0 3px #999;
+}
+.toggle_button:hover {background-color: #3e8e41}
+.toggle_button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 1px #666;
+    transform: translateY(3px);
+}
